@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('ostrich-regular-webfont.eot');
+    src: url('ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('ostrich-regular-webfont.woff2') format('woff2'),
+    url('ostrich-regular-webfont.woff') format('woff'),
+    url('ostrich-regular-webfont.ttf') format('truetype'),
+    url('ostrich-regular-webfont.svg#ostrich_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+    background-color: #ECD30F;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'ostrich_sansmedium', Arial, sans-serif;
+    font-size: 90px;
+    margin: 0.5em auto;
+    max-width: 240px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #1F2CA3;
+}
+
+p::selection,
+p::-moz-selection{
+    background: #ffec0e;
+}
+
+@media all and (min-width: 320px) {
+    body {
+        font-size: 110px;
+        max-width: 280px;
+    }
+}
+
+@media all and (min-width: 375px) {
+    body {
+        font-size: 150px;
+        max-width: 380px;
+    }
+}
+
+@media all and (min-width: 414px) {
+    body {
+        font-size: 200px;
+        max-width: 505px;
+    }
+}
+
+@media all and (min-width: 676px) {
+    body {
+        font-size: 250px;
+        max-width: 630px;
+    }
+}
